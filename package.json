@@ -1,0 +1,14 @@
+{
+  "name": "mongo-crud",
+  "version": "1.0.0",
+  "description": "Simple CRUD app using mongoDB",
+  "main": "app.js",
+  "repository": "https://github.com/avijeetpandey/mongo-crud.git",
+  "author": "Avijeet Pandey <avijeetpandey25@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
+  }
+}
