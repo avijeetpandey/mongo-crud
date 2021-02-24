@@ -20,7 +20,7 @@ exports.createStudent = (req, res) => {
   student.save((err, student) => {
     if (err) {
       return res.json({
-        error: "Unable to save user",
+        error: "Unable to create student",
       });
     }
     res.json({
