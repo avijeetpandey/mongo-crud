@@ -21,3 +21,5 @@ let studentSchema = new mongoose.Schema({
     maxlength: 10,
   },
 });
+
+module.exports = mongoose.model("Student", studentSchema);
