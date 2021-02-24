@@ -12,7 +12,7 @@ exports.getStudents = (req, res) => {
       });
     }
     res.send(result);
-  });
+  })
 };
 
 exports.createStudent = (req, res) => {
